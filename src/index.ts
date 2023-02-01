@@ -8,7 +8,7 @@ const handleRequest = async (
   reflare.push({
     path: '/*',
     upstream: {
-      domain: 'httpbin.org',
+      domain: 'web.telegram.org',
       protocol: 'https',
     },
   });
